@@ -6,7 +6,7 @@ train S1 entities (local) or the public leaderboard (LB).
 ## What moved the score
 | Step | Local | Public LB |
 |---|---|---|
-| Name-only TF-IDF blocking + hand-set weights (my first attempt) | 0.645 | ~0.64 (rank ~1430) |
+| Name-only TF-IDF blocking + hand-set weights (my first attempt) | 0.645 | - (rank ~1430) |
 | Name + address combined blocking, LightGBM matcher | 0.965 | - |
 | Fine-tuned MiniLM bi-encoder + exact-key blocks, 2-stage XGBoost | 0.985 | 0.9719 |
 | Leak-free normalisation maps + fill rule | 0.9869 | 0.9739 |
