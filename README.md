@@ -26,3 +26,6 @@ records -> normalise -> blocking (MiniLM bi-encoder top-12 + exact keys, ~77 can
 The challenge dataset, trained models and prediction files are not in this repo. The dataset is mostly available on Kaggle (Amazon ML Challenge 2026); download it and point `ER_DATA_DIR` at it
 to reproduce. Only public base models are used (all-MiniLM-L6-v2, ms-marco-MiniLM-L12-v2),
 fine-tuned on the provided training data only; no external data or APIs.
+
+## License
+MIT, see [LICENSE](LICENSE).
