@@ -23,6 +23,6 @@ records -> normalise -> blocking (MiniLM bi-encoder top-12 + exact keys, ~77 can
 - [`docs/pipeline-and-reproduction.md`](docs/pipeline-and-reproduction.md) - module map and how to run it
 
 ## Not included
-The challenge dataset, trained models and prediction files are not in this repo. Point `ER_DATA_DIR` at your own
-copy of the data to reproduce. Only public base models are used (all-MiniLM-L6-v2, ms-marco-MiniLM-L12-v2),
+The challenge dataset, trained models and prediction files are not in this repo. The dataset is mostly available on Kaggle (Amazon ML Challenge 2026); download it and point `ER_DATA_DIR` at it
+to reproduce. Only public base models are used (all-MiniLM-L6-v2, ms-marco-MiniLM-L12-v2),
 fine-tuned on the provided training data only; no external data or APIs.
