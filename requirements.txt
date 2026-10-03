@@ -1,0 +1,12 @@
+# Python 3.14 (also tested on Kaggle Python 3.11 with the same major versions); CUDA GPU recommended
+numpy==2.5.3
+polars==1.44.2
+rapidfuzz==3.14.6
+Unidecode==1.4.0
+xgboost==3.4.1
+lightgbm==4.7.0
+torch==2.14.0
+transformers==5.17.0
+tokenizers==0.23.2
+safetensors==0.8.0
+sentence-transformers==6.1.0
